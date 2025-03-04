@@ -87,7 +87,7 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
-![Screenshot from 2025-02-28 10-42-34](https://github.com/user-attachments/assets/6eca1c5f-a289-4563-92a4-d190f9b73b21)
+
 
 
 
@@ -95,14 +95,12 @@ cut -c1-3 file11
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-![Screenshot from 2025-02-28 10-43-40](https://github.com/user-attachments/assets/117e4fce-ecf3-4a64-9ede-de2d32391975)
 
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-![Screenshot from 2025-02-28 10-44-36](https://github.com/user-attachments/assets/93d6a796-c204-49a3-9689-9aa2b9acd473)
 
 
 
@@ -118,21 +116,18 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
-![Screenshot from 2025-02-28 10-48-18](https://github.com/user-attachments/assets/440168ff-fbc3-4828-a0ec-cb28f726e1a0)
+
 
 
 
 grep hello newfile 
 ## OUTPUT
-![Screenshot from 2025-02-28 10-47-17](https://github.com/user-attachments/assets/0c64f794-ccf5-4a32-98f1-ff539f36cef0)
-
 
 
 
 grep -v hello newfile 
 ## OUTPUT
 
-![Screenshot from 2025-02-28 10-49-31](https://github.com/user-attachments/assets/71ad77df-f91b-4728-843e-5896c85e0d4e)
 
 
 cat newfile | grep -i "hello"
