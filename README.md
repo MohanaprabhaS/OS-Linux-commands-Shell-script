@@ -88,6 +88,7 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
+![Screenshot from 2025-03-04 14-05-02](https://github.com/user-attachments/assets/7960489e-20e1-42f1-ac6b-93746e786a5f)
 
 
 
@@ -96,12 +97,14 @@ cut -c1-3 file11
 cut -d "|" -f 1 file22
 ## OUTPUT
 
+![Screenshot from 2025-03-04 14-10-14](https://github.com/user-attachments/assets/9f35ff0a-6284-4e50-adc2-ed6daef7b434)
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
 
+![Screenshot from 2025-03-04 14-12-37](https://github.com/user-attachments/assets/5ceb233a-d42a-4c62-ad0b-b92e0996066f)
 
 
 cat < newfile 
@@ -114,41 +117,50 @@ cat > newfile
 Hello world
 hello world
  
-grep Hello newfile 
+grep Hello newfile
 ## OUTPUT
 
+![Screenshot from 2025-03-04 14-16-49](https://github.com/user-attachments/assets/36bcd86b-ef3a-4e6a-93aa-4861e90ac7f1)
 
 
 
 grep hello newfile 
 ## OUTPUT
+![Screenshot from 2025-03-04 14-17-35](https://github.com/user-attachments/assets/edc80598-3218-49b2-8568-6807d80e4b5a)
 
 
 
 grep -v hello newfile 
 ## OUTPUT
+![Screenshot from 2025-03-04 14-18-15](https://github.com/user-attachments/assets/1299836a-e76e-4c90-ad49-f4d1b5120412)
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
+![Screenshot from 2025-03-04 14-19-12](https://github.com/user-attachments/assets/a0969d49-4791-40db-afff-dee602d34f8e)
 
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
+![Screenshot from 2025-03-04 14-20-39](https://github.com/user-attachments/assets/4e977528-87ac-4142-9a90-81b938cf0811)
 
 
 
 
 grep -R ubuntu /etc
 ## OUTPUT
+![Screenshot from 2025-03-04 14-28-22](https://github.com/user-attachments/assets/030f3a8b-1ace-47ec-95b5-3cff846aa382)
+
 
 
 
 grep -w -n world newfile   
 ## OUTPUT
+![Screenshot from 2025-03-04 14-30-03](https://github.com/user-attachments/assets/cc428127-f562-4428-aee9-2cedfb0fc597)
+
 
 
 cat < newfile 
@@ -168,63 +180,75 @@ hello world
 Linux is world number 1
 Unix is predecessor
 Linux is best in this World
-^d
- ```
+```
+ 
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
 
+![Screenshot from 2025-03-04 14-33-01](https://github.com/user-attachments/assets/0c6cc42f-59e0-4295-8a16-adebe5548672)
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
 
+![Screenshot from 2025-03-04 14-34-15](https://github.com/user-attachments/assets/22d4d6b5-897a-423b-a0d1-c466cc4eedc6)
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
+![Screenshot from 2025-03-04 14-35-35](https://github.com/user-attachments/assets/94219992-fbd9-44b3-b6b0-e67666b27e52)
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
 
+![Screenshot from 2025-03-04 14-36-21](https://github.com/user-attachments/assets/65c00338-b9a7-4186-8e16-347e108f02d0)
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
 
+![Screenshot from 2025-03-04 14-37-26](https://github.com/user-attachments/assets/0b403a18-3d9b-4bce-a5a9-cf5aff85c83d)
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
+![Screenshot from 2025-03-04 14-38-44](https://github.com/user-attachments/assets/8c9b8108-e897-47c1-a9d2-84681285ced7)
 
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
+![Screenshot from 2025-03-04 14-39-19](https://github.com/user-attachments/assets/9779d598-ea81-41b1-a0e2-eb4c7d6873bf)
 
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
+![Screenshot from 2025-03-04 14-39-56](https://github.com/user-attachments/assets/2a85de2c-c5c0-4962-90a5-89e32bd30053)
 
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
+![Screenshot from 2025-03-04 14-40-53](https://github.com/user-attachments/assets/b419d6db-14df-494b-b61e-ff9bced71e67)
 
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+![Screenshot from 2025-03-04 14-41-26](https://github.com/user-attachments/assets/1e028ff6-99f4-4924-979b-04225e0e1ef3)
 
 
 egrep l{2} newfile
 ## OUTPUT
+![Screenshot from 2025-03-04 14-42-12](https://github.com/user-attachments/assets/bad42d1e-442f-4825-bda5-785ab31622bb)
 
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+![Screenshot from 2025-03-04 14-42-50](https://github.com/user-attachments/assets/ad366b9a-7836-4a36-84c9-d67a4ea86e8e)
 
 
 cat > file23
@@ -241,8 +265,10 @@ cat > file23
 ```
 
 
+
 sed -n -e '3p' file23
 ## OUTPUT
+![Screenshot from 2025-03-04 14-44-35](https://github.com/user-attachments/assets/df17cddd-949f-43bc-875e-37b42d6757f7)
 
 
 
