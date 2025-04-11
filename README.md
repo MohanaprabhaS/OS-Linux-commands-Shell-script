@@ -391,16 +391,17 @@ uniq file22
 
 #Using tr command
 
-cat file23 | tr [:lower:] [:upper:]
+cat file22| tr [:lower:] [:upper:]
  ## OUTPUT
+   ![Screenshot from 2025-04-12 03-47-36](https://github.com/user-attachments/assets/e7fc8680-d5f3-420a-bb7e-bdba61735f9a)
 
 cat < urllist.txt
-```
+
 www. yahoo. com
 www. google. com
 www. mrcet.... com
 ^d
- ```
+ 
 cat > urllist.txt
 ```
 www. yahoo. com
@@ -410,16 +411,19 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
+![Screenshot from 2025-04-12 03-50-38](https://github.com/user-attachments/assets/aae3fe25-6283-43fb-a047-8d645dadf9bc)
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
+![Screenshot from 2025-04-12 03-51-31](https://github.com/user-attachments/assets/62755732-778d-44d0-942f-025357fe5bc3)
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+![Screenshot from 2025-04-12 04-03-22](https://github.com/user-attachments/assets/8a0f142b-f8fd-40e6-bec2-49a2a47d190b)
 
 
 mkdir backupdir
@@ -443,10 +447,8 @@ gunzip backup.tar.gz
 
  
 # Shell Script
-```
 echo '#!/bin/sh' > my-script.sh
 echo 'echo Hello World‘; exit 0 >> my-script.sh
-```
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
