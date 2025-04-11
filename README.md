@@ -371,19 +371,22 @@ cat > file21
 sort file21
 ## OUTPUT
 
+![Screenshot from 2025-04-12 03-40-53](https://github.com/user-attachments/assets/23aff33b-d9d1-4124-8d08-af543c67bf6c)
+
 
 cat > file22
-```
+
 1001 | Ram | 10000 | HR
 1001 | Ram | 10000 | HR
 1002 | tom |  5000 | Admin
 1003 | Joe |  7000 | Developer
 1005 | Sam |  5000 | HR
 1004 | Sit |  7000 | Dev
-``` 
+
 uniq file22
 ## OUTPUT
 
+![Screenshot from 2025-04-12 03-43-06](https://github.com/user-attachments/assets/8ccc3fab-9f3b-4f01-a757-2e07578d5d54)
 
 
 #Using tr command
